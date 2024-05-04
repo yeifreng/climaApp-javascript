@@ -1,19 +1,32 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f3f3f3;
+    background: #07393C;
   }
   
   .contenedor {
     max-width: 500px;
     margin: 0 auto;
+    margin-top: 50px;
     padding: 20px;
     text-align: center;
-    background-color: #ffffff;
+    background-color: #2C666E;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .contenedor-dos{
+    max-width: 500px;
+    color: #ffffff;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #0A090C;
+    border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
   h1 {
-    color: #333333;
+    color: #90DDF0;
   }
   
   input[type="text"] {
